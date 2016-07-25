@@ -1,0 +1,19 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:background="?attr/selectableItemBackground"
+    >
+<com.xedus.tutorials.utils.TextViewPlus
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textSize="28dp"
+    app:fontName="fonts/AdventPro.ttf"
+    android:id="@+id/drawer_item"
+    android:layout_margin="8dp"
+    android:paddingStart="10dp"
+    android:paddingLeft="10dp"
+    />
+</LinearLayout>

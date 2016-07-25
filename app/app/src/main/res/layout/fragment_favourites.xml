@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/favourites_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fav_list"
+
+    />
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:progressDrawable="@drawable/circular_progress_bar"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/no_connection"
+        android:background="#ddd"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"
+            android:layout_centerInParent="true"
+            android:src="@drawable/no_internet"
+            android:id="@+id/no_connection_cloud"/>
+        <com.xedus.tutorials.utils.TextViewPlus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_connection"
+            android:layout_below="@id/no_connection_cloud"
+            android:layout_centerInParent="true"
+            android:textSize="18dp"
+            android:textColor="#777"
+            app:fontName="fonts/Ubuntu.ttf"/>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
