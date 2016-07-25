@@ -1,6 +1,6 @@
 # WP-Droid [WIP]
 
-An android app to convert your Wordpress website into an android app. This app uses [WP API](v2.wp-api.org/) to work properly.
+A project to convert your Wordpress website into an android app. This app uses [WP API](v2.wp-api.org/) to work properly.
 The app is just an implementation of how wordpress api can be used to extend wordpress api and convert blog into an app.
 
 # Installation
