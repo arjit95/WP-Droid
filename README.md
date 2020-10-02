@@ -1,11 +1,11 @@
 # WP-Droid [WIP]
 
-A project to convert your Wordpress website into an android app. This app uses [WP API](v2.wp-api.org/) to work properly.
-The app is just an implementation of how wordpress api can be used to extend wordpress api and convert blog into an app.
+A project to convert your WordPress website into an android app. This app uses the [WP API](v2.wp-api.org/) to work properly.
+This app is just an implementation of the way WordPress API extends its own API to convert the blog into an app.
 
 # Installation
 
-* Install [WP API](http://v2.wp-api.org/) on your wordpress site.
+* Install [WP API](http://v2.wp-api.org/) on your WordPress site.
 
 * Clone this repository and edit [posts-api.php](https://github.com/arjit95/WP-Droid/blob/master/web/posts-api.php) and
   change the BASE_URL variable to your blog url.
